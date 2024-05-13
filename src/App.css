@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+#root {
+  width: 100% !important;
+}
+
+* {
+  font-family: "Rubik";
+}
+
+@media only screen and (max-width: 649px) {
+  #root {
+    margin: 0;
+    height: 100%;
+    width: fit-content;
+  }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    width: fit-content;
+  }
+  .components-wrapper {
+    width: fit-content;
+    margin: 0 -1em;
+  }
+
+  .components-wrapper div {
+    width: 100%;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+}
+
+
+@media only screen and (max-width: 949px) {
+  #root {
+    margin: 0;
+    height: 100%;
+    width: fit-content;
+  }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    width: fit-content;
+  }
+  .components-wrapper {
+    width: fit-content;
+    margin: 0 -1em;
+  }
+
+  .components-wrapper div {
+    width: fit-content;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  @media only screen and (max-width: 1149px) {}
+}

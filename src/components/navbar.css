@@ -1,0 +1,31 @@
+#navbar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar .nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 0 2rem;
+  }
+  
+  #navbar .brand {
+    font-size: 1.6rem;
+    color: #fafafa;
+    cursor: default;
+    font-style: italic;
+  }
+  
+  @media only screen and (max-width: 849px) {
+    #navbar {
+      background: #181d23aa;
+    }
+  }
+  
